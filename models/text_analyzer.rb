@@ -8,7 +8,7 @@ class TextAnalyzer
   
   def count_of_words
     words = text.split(" ")
-    word.count
+    words.count
   end
   
   def count_of_vowels
