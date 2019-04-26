@@ -3,7 +3,7 @@ class TextAnalyzer
   attr_accessor :text
   
   def initialize(text)
-    @text = text.downcasse
+    @text = text.downcase
   end
   
   def count_of_words
